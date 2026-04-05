@@ -8,7 +8,7 @@ A cinematic image gallery built with modern web technologies.
 
 | Loading Screen | Gallery |
 |---|---|
-| ![Loading](./public/preview-loading.png) | ![Gallery](./public/preview-gallery.png) |
+| ![Loading](./public/public/Screenshot 2026-04-05 192246.png) | ![Gallery](./public/preview-gallery.png) |
 
 ## Features
 
