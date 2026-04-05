@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Geist Sans", "Inter", "sans-serif";
+  --font-mono: "Geist Mono", "monospace";
+}
+
+:root {
+  --bg-base: #000000;       /* pitch black */
+  --bg-surface: #0a0a0a;    /* dark surface */
+  --accent: #e86c2f;        /* orange accent */
+  --accent-glow: #ff8c42;   /* glow on hover */
+  --text-primary: #f0ebe5;
+  --text-muted: #8c7b6e;
+  --border-subtle: #222222;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-weight: 300; /* Geist Light */
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-medium {
+  font-weight: 500; /* Geist Medium */
+}
+
+/* Scrollbar styling for a premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-base);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-subtle);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.ease-expo {
+  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
