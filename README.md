@@ -1,49 +1,49 @@
-# Gwen Gallery | JinXSuper
+# Gwen Gallery
 
-A premium, high-performance cinematic image portfolio inspired by the aesthetic of Guinevere. Built with React 19, Vite, Tailwind CSS v4, GSAP, and Framer Motion.
+A cinematic image gallery built with modern web technologies.
 
-## 🚀 Getting Started
+🔗 **Live Demo**: [jinxsuper-gwen-gallery.vercel.app](https://jinxsuper-gwen-gallery.vercel.app)
 
-> [!IMPORTANT]
-> **Prerequisite**: Before downloading or cloning this repository, you **MUST** fork the original repository to your own GitHub account:
-> **[Fork here: https://github.com/JinXSuper/gwen-gallery](https://github.com/JinXSuper/gwen-gallery)**
+## Preview
 
-### Setup Instructions
+| Loading Screen | Gallery |
+|---|---|
+| ![Loading](./public/preview-loading.png) | ![Gallery](./public/preview-gallery.png) |
 
-1.  **Clone your fork**:
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/gwen-gallery.git
-    cd gwen-gallery
-    ```
+## Features
 
-2.  **Install Dependencies**:
-    ```bash
-    npm install
-    ```
+- Cinematic preloader with GSAP entrance animation
+- Adaptive infinite scroll (120 FPS optimized)
+- Dynamic watermark on image download
+- Smooth scroll with Lenis
+- Responsive glassmorphism UI
 
-3.  **Run Development Server**:
-    ```bash
-    npm run dev
-    ```
+## Tech Stack
 
-4.  **Production Build**:
-    ```bash
-    npm run build
-    ```
+[![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_v4-0F172A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8)](https://tailwindcss.com)
+[![GSAP](https://img.shields.io/badge/GSAP-0E0E0E?style=for-the-badge&logo=greensock&logoColor=88CE02)](https://gsap.com)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion)
+[![Lenis](https://img.shields.io/badge/Lenis-000000?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyUzYuNDggMjIgMTIgMjIgMjIgMTcuNTIgMjIgMTIgMTcuNTIgMiAxMiAyWk0xMSAxN1Y3bDYgNS02IDV6Ii8+PC9zdmc+)](https://lenis.darkroom.engineering)
 
-## ✨ Key Features
-- **Adaptive Infinite Scroll**: Optimized for 120 FPS with batch loading (16 Desktop / 8 Mobile).
-- **Cinematic Preloader**: Character-staggered GSAP entrance with real-time loading progress.
-- **Dynamic Watermarking**: Automatic "Gwen Gallery" watermark injection during download.
-- **Fluid UI**: Responsive glassmorphism navigation and interactive branding modal.
-- **Randomization**: Fresh image ordering on every page refresh.
+## Getting Started
 
-## 🛠 Tech Stack
-- **Framework**: React 19 + Vite
-- **Styling**: Tailwind CSS v4 (Alpha/Beta)
-- **Animation**: GSAP (Entrance), Framer Motion (Transitions & Interaction)
-- **Smooth Scroll**: Lenis
-- **Typography**: Geist Sans & Mono
+> Fork this repo first before cloning.
+
+```bash
+git clone https://github.com/YOUR_USERNAME/gwen-gallery-web.git
+cd gwen-gallery-web
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
 
 ---
-Created with ❤️ by **JinXSuper**
+
+Made by [JinXSuper](https://github.com/JinXSuper)
